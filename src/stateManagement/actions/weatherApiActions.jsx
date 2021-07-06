@@ -21,9 +21,9 @@ const api = [
   'b1rtH1c7YGAGM5oe3z8xmeRuenABGxtA',
   'RYPnuZM3IIH78UxZPGZwy9OOlyklRl98',
   'IH6XdJmS862iwvSXT8xXek0z9pyNue08',
-]
+];
 
-var accuWeatherApiKey = api[Math.floor(Math.random() * api.length)]
+var accuWeatherApiKey = api[Math.floor(Math.random() * api.length)];
 
 export const listAutocompleteSearch = (searchWord) => async (dispatch) => {
   try {
@@ -43,8 +43,8 @@ export const listAutocompleteSearch = (searchWord) => async (dispatch) => {
           ? error.response.data.message
           : error.message,
     })
-  }
-}
+  };
+};
 
 export const locationAutocompleteSearch = (searchWord) => async (dispatch) => {
   try {
@@ -64,8 +64,8 @@ export const locationAutocompleteSearch = (searchWord) => async (dispatch) => {
           ? error.response.data.message
           : error.message,
     })
-  }
-}
+  };
+};
 
 export const conditionCurrent = (key) => async (dispatch) => {
   try {
@@ -85,8 +85,8 @@ export const conditionCurrent = (key) => async (dispatch) => {
           ? error.response.data.message
           : error.message,
     })
-  }
-}
+  };
+};
 
 export const conditionFiveDays = (key) => async (dispatch) => {
   try {
@@ -106,5 +106,5 @@ export const conditionFiveDays = (key) => async (dispatch) => {
           ? error.response.data.message
           : error.message,
     })
-  }
-}
+  };
+};
