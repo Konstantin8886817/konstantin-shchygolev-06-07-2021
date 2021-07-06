@@ -8,14 +8,14 @@ import thunder from '../images/icons/thunder.svg';
 import rainy from '../images/icons/rainy.svg';
 import sunny from '../images/icons/sunny.svg';
 
-const WeatherIcon = ({ number }) => {
+const WeatherIconSmall = ({ number }) => {
   return (
     <>
       {number >= 0 && number < 6 ? (
         <img
           alt='weather'
           src={sunny}
-          width='200'
+          width='50'
           style={{ borderRadius: '5px' }}
           className='d-inline-block align-top'
         />
@@ -23,7 +23,7 @@ const WeatherIcon = ({ number }) => {
         <img
           alt='weather'
           src={cloudy}
-          width='200'
+          width='50'
           style={{ borderRadius: '5px' }}
           className='d-inline-block align-top'
         />
@@ -31,15 +31,16 @@ const WeatherIcon = ({ number }) => {
         <img
           alt='weather'
           src={rainy}
-          width='200'
+          width='50'
           style={{ borderRadius: '5px' }}
           className='d-inline-block align-top'
         />
       ) : number >= 19 && number < 33 ? (
+
         <img
           alt='weather'
           src={snowy}
-          width='200'
+          width='50'
           style={{ borderRadius: '5px' }}
           className='d-inline-block align-top'
         />
@@ -47,7 +48,7 @@ const WeatherIcon = ({ number }) => {
         <img
           alt='weather'
           src={night}
-          width='200'
+          width='50'
           style={{ borderRadius: '5px' }}
           className='d-inline-block align-top'
         />
@@ -55,7 +56,7 @@ const WeatherIcon = ({ number }) => {
         <img
           alt='weather'
           src={thunder}
-          width='200'
+          width='50'
           style={{ borderRadius: '5px' }}
           className='d-inline-block align-top'
         />
@@ -63,7 +64,7 @@ const WeatherIcon = ({ number }) => {
         <img
           alt='weather'
           src={weather}
-          width='200'
+          width='50'
           style={{ borderRadius: '5px' }}
           className='d-inline-block align-top'
         />
@@ -72,4 +73,4 @@ const WeatherIcon = ({ number }) => {
   );
 };
 
-export default WeatherIcon;
+export default WeatherIconSmall;
