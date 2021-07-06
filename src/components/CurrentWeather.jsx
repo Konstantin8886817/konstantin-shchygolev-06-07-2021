@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Snackbar from '@material-ui/core/Snackbar';
 import WeatherIcon from '../components/WeatherIcon';
 
-import { conditionCurrent } from '../actions/acuuWeatherApiActions';
+import { conditionCurrent } from '../stateManagement/actions/weatherApiActions';
 
 import {
   addFavorite,
