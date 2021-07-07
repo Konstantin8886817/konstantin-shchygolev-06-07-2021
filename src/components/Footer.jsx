@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Container, Navbar } from 'react-bootstrap';
 import Switch from '@material-ui/core/Switch';
 
@@ -28,12 +26,12 @@ const Footer = () => {
       fixed='bottom'
     >
       <Container>
-        <Navbar.Brand className='mr-auto' style={{ fontSize: '12px' }}>
+        <Navbar.Brand className='mr-auto' style={{ fontSize: '14px', fontWeight: 'bold' }}>
           <span>Light</span>
           <Switch color='default' onChange={handleThemeChange}></Switch>
           <span>Dark</span>
         </Navbar.Brand>
-        <Navbar.Brand className='ml-auto' style={{ fontSize: '12px' }}>
+        <Navbar.Brand className='ml-auto' style={{ fontSize: '14px', fontWeight: 'bold' }}>
           <span>°C</span>
           <Switch color='default' onChange={handleDegreesChange}></Switch>
           <span>°F</span>

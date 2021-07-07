@@ -1,9 +1,9 @@
-import React from 'react';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { Link, withRouter } from 'react-router-dom';
 
 import logo from '../images/logo.jpg';
+import HeroloLogo from '../images/herolo_logo.jpg';
 
 const Header = () => {
   const themeReducer = useSelector(({ themeReducer }) => themeReducer);
@@ -19,22 +19,29 @@ const Header = () => {
         <Container>
           <Link to='/'>
             <Navbar.Brand>
-              {' '}
+              <img
+                alt='weather'
+                src={HeroloLogo}
+                width='65'
+                className='d-inline-block align-top'
+              />
               <img
                 alt='weather'
                 src={logo}
-                width='45'
-                style={{ borderRadius: '5px' }}
+                width='55'
+                style={{ borderRadius: '25px' }}
                 className='d-inline-block align-top'
-              />{' '}
+              />
               <span
                 style={{
                   marginLeft: '5px',
                   display: 'inline-block',
-                  marginTop: '4px',
+                  marginTop: '10px',
+                  fontWeight: '600',
+                  fontSize: '25px',
                 }}
               >
-                Weather
+                Weather App
               </span>
             </Navbar.Brand>
           </Link>
@@ -48,7 +55,7 @@ const Header = () => {
                   border: 'none',
                 }}
               >
-                <i className='fas fa-heart' style={{ color: 'salmon' }}></i>
+                <i className='fa fa-th-list fa-2x' style={{ color: '#66CCFF' }}></i>
               </Button>
             </Link>
           </Nav>

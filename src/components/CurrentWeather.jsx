@@ -140,16 +140,16 @@ const CurrentWeather = () => {
               onClick={handleFavorite}
             >
               {favIcon ? (
-                <i className='fas fa-heart' style={{ color: 'salmon' }}></i>
+                <i className='fa fa-ban fa-2x' style={{ color: 'salmon' }}></i>
               ) : (
-                <i className='far fa-heart' style={{ color: 'salmon' }}></i>
+                <i className='far fa-heart fa-2x' style={{ color: 'salmon' }}></i>
               )}
             </Button>
             <Snackbar
               open={open}
-              autoHideDuration={2000}
+              autoHideDuration={3000}
               onClose={handleClose}
-              message='Favorites updated'
+              message='Cool🎉 Favorites list has updated😊'
             ></Snackbar>
           </Card.Body>
         </Card>
