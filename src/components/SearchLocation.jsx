@@ -33,16 +33,13 @@ const SearchLocation = () => {
   const useStyles = makeStyles((theme) => ({
     root: {
       '& .MuiOutlinedInput-root': {
-        // - The Input-root, inside the TextField-root
         '& fieldset': {
-          // - The <fieldset> inside the Input-root
-          borderColor: `${themeReducer.theme ? 'black' : 'white'}`, // - Set the Input border
+          borderColor: `${themeReducer.theme ? 'black' : 'white'}`,
         },
         '&:hover fieldset': {
-          borderColor: `${themeReducer.theme ? 'black' : 'white'}`, // - Set the Input border when parent has :hover
+          borderColor: `${themeReducer.theme ? 'black' : 'white'}`,
         },
         '&.Mui-focused fieldset': {
-          // - Set the Input border when parent is focused
           borderColor: `${themeReducer.theme ? 'black' : 'white'}`,
         },
       },
