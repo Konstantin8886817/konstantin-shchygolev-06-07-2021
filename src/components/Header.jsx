@@ -23,7 +23,7 @@ const Header = () => {
               <img
                 alt='weather'
                 src={logo}
-                width='35'
+                width='45'
                 style={{ borderRadius: '5px' }}
                 className='d-inline-block align-top'
               />{' '}
