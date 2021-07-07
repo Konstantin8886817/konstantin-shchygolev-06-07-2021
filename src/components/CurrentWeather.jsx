@@ -81,7 +81,7 @@ const CurrentWeather = () => {
       return
     }
     setOpen(false)
-  }
+  };
 
   return (
     <Row className='py-3'>

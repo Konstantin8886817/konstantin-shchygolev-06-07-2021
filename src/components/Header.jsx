@@ -24,6 +24,7 @@ const Header = () => {
                 src={HeroloLogo}
                 width='65'
                 className='d-inline-block align-top'
+                style={{marginRight: '5px'}}
               />
               <img
                 alt='weather'

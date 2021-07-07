@@ -1,5 +1,3 @@
-import React from 'react';
-
 import weather from '../images/icons/weather.svg';
 import night from '../images/icons/night.svg';
 import cloudy from '../images/icons/cloudy.svg';

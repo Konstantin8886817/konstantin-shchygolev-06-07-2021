@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container } from 'react-bootstrap';
 import CurrentWeather from '../components/CurrentWeather';
 import FiveDaysList from '../components/FiveDaysList';

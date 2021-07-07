@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from 'axios';
 import {
   AUTOCOMPLETE_SEARCH_LIST_FAIL,
   AUTOCOMPLETE_SEARCH_LIST_SUCCESS,

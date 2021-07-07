@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-import HomeLayout from './layoutes/HomeLayout';
-import FavoritesLayout from './layoutes/FavoritesLayout';
+import HomeLayout from './layouts/HomeLayout';
+import FavoritesLayout from './layouts/FavoritesLayout';
 import { useSelector } from 'react-redux';
 
 import night from './images/night.jpg';

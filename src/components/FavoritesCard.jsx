@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
