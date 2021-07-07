@@ -28,6 +28,7 @@ const App = () => {
         minHeight: '100vh',
         color: 'white',
       }
+
   return (
     <Router>
       <Header />
