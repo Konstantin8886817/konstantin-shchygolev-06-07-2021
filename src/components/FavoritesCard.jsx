@@ -7,7 +7,7 @@ import WeatherIconSmall from '../components/WeatherIconSmall';
 
 import { locationAutocompleteSearch } from '../stateManagement/actions/weatherApiActions';
 
-const FavoriteCard = ({ city, icon, temp, text }) => {
+const FavoritesCard = ({ city, icon, temp, text }) => {
   const dispatch = useDispatch();
 
   const themeReducer = useSelector(({ themeReducer }) => themeReducer);
@@ -16,8 +16,8 @@ const FavoriteCard = ({ city, icon, temp, text }) => {
   let history = useHistory();
 
   const handleShowMore = () => {
-    dispatch(locationAutocompleteSearch(city))
-    history.push('/')
+    dispatch(locationAutocompleteSearch(city));
+    history.push('/');
   };
 
   return (
@@ -51,4 +51,4 @@ const FavoriteCard = ({ city, icon, temp, text }) => {
   );
 };
 
-export default FavoriteCard;
+export default FavoritesCard;
