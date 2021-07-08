@@ -1,4 +1,4 @@
-import { ToggleFahrenheit, ToggleCelsius } from '../stateManagement/actions/degreesActions';
+import { ToggleFahrenheit, ToggleCelsius } from '../../stateManagement/actions/degreesActions';
 
 describe('degreesActions', () => {
 
