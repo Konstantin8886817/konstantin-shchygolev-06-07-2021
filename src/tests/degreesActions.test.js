@@ -4,11 +4,11 @@ describe('degreesActions', () => {
 
     test('returns an action with type `DEGREES_FAHRENHEIT`', () => {
         const action = ToggleFahrenheit();
-        expect(action).toStrictEqual({'type': 'DEGREES_FAHRENHEIT'});
+        expect(action).toStrictEqual({type: 'DEGREES_FAHRENHEIT'});
     });
 
     test('returns an action with type `DEGREES_CELSIUS`', () => {
         const action = ToggleCelsius();
-        expect(action).toStrictEqual({'type': 'DEGREES_CELSIUS'});
+        expect(action).toStrictEqual({type: 'DEGREES_CELSIUS'});
     });
 });
