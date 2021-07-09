@@ -1,5 +1,6 @@
 https://herolo-weather-app.netlify.app/
 
+TESTS RESULTS:
 ![tests_result](https://user-images.githubusercontent.com/61967294/125123751-be5d4d00-e0ff-11eb-91b6-b95dd8a85d38.jpg)
 
 
